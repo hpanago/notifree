@@ -1,0 +1,27 @@
+{
+	"domain": "skai.gr",
+
+	"seiries": 
+		[
+			{
+				"title": "Oti na nai",
+				"url": "http://www.skai.gr/Ajax.aspx?m=Nv.SqlModule&name=player_media_list_cat&pg=1&categoryid=64136&mediatype=Radio",
+				"episode": "<li class=\"\">(.+?)</li>",
+				"episode-url": "href=\"(.*?)\"",
+				"episode-number": "<time>(.*?)</time>",
+				"send-to": ["leoalvra@gmail.com", "hpanago@gmail.com"]
+			},
+
+			{
+				"title": "zwi.gr",
+				"url": "http://www.skai.gr/Ajax.aspx?m=Nv.SqlModule&name=player_media_list_cat&pg=2&categoryid=63978&mediatype=Radio",
+				"episode": "<li class=\"\">(.+?)</li>",
+				"episode-url": "href=\"(.*?)\"",
+				"episode-number": "<time>(.*?)</time>",
+				"send-to": ["leoalvra@gmail.com", "hpanago@gmail.com"]
+				
+			}
+
+		]
+	
+}
